@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/join.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
 </head>
 
 <body>
@@ -21,18 +22,49 @@
         <img src="images/home.svg" alt="Site Logo" width="512" height="512">
         <span>Pamela Beltran Trujillo</span>
         <button id="ham-btn" class="hamburger"></button>
-        <nav id="nav-bar" class="navigation">
+    </header>
+    <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="#" aria-current="page">Home</a></li>
+                <li class="current"><a href="#">Home</a></li>
                 <li><a href="#">Chamber Project</a></li>
                 <li><a href="#">Final Project</a></li>
             </ul>
-        </nav>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Pamela Beltran Trujillo, a student at BYU-Idaho. I am pursuing a degree in Web Development.</p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/yo.webp" alt="Student Photo" width="300" height="190">
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="courses-filter">
+                <p><strong>All</strong></p>
+                <p><strong>CSE</strong></p>
+                <p><strong>WDD</strong></p>
+            </div>
+            <div class="courses-list">
+                <p>WDD 130</p>
+                <p>WDD 131</p>
+                <p>WDD 231</p>
+            </div>
+        </section>
 
-        <h1>wdd 231 - Pamela M</h1>
-    </header>
-    <main></main>
-    <footer></footer>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/login/" target="_blank"><img src="images/facebook1.svg" alt="Facebook" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/login/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/login" target="_blank"><img src="images/github.svg" alt="GitHub" width="16" height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="copyrightYear"></span> Pamela Beltran Trujillo - Mexico</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 
 </html>
