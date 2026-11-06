@@ -1,0 +1,28 @@
+{
+    "familyName": "Beltran",
+    "moveInDate": "2023-01-01",
+    "numberOfMembers": 4,
+    "visitedByBishop": true,
+    "familyMembers": [
+        {
+            "firstName": "Pamela",
+            "gender": "female",
+            "birthDate": "2006-11-17"
+        },
+        {
+            "firstName": "Gladys",
+            "gender": "female",
+            "birthDate": "1978-11-5"
+        },
+        {
+            "firstName": "Alexander",
+            "gender": "male",
+            "birthDate": "2012-06-12"
+        },
+        {
+            "firstName": "Miguel",
+            "gender": "male",
+            "birthDate": "1980-09-29"
+        }
+    ]
+}

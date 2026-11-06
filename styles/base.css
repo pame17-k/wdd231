@@ -11,7 +11,7 @@ header {
     display: grid;
     grid-template-columns: 24px auto 44px;
     padding: 5px 0 5px 10px;
-    align-items: end;
+    align-items: center;
     border-bottom: 1px solid #000;
     column-gap: 10px;
 }
@@ -77,7 +77,6 @@ header span {
 .navigation a:hover {
     background-color: #cbd5c5;
 }
-
 
 h1 {
     margin-left: 10px;

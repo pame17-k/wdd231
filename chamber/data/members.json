@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Daisuki Details",
+        "image": "daisuki.png",
+        "email": "daisuki@example.com",
+        "phone": "123-456-7890",
+        "url": "https://www.daisuki.com"
+    },
+    {
+        "name": "Angeles del Cielo",
+        "image": "angeles.jpg",
+        "email": "angelesdelcielo@example.com",
+        "phone": "123-456-7891",
+        "url": "https://www.angelesdelcielo.com"
+    },
+    {
+        "name": "Tomillo Dark Kitchen",
+        "image": "tomillo.jpg",
+        "email": "tomillo@example.com",
+        "phone": "123-456-7892",
+        "url": "https://www.tomillodarkkitchen.com"
+    },
+    {
+        "name": "Mejorana Kitchen",
+        "image": "mejorana.jpg",
+        "email": "mejorana@example.com",
+        "phone": "123-456-7893",
+        "url": "https://www.mejorana.com"
+    },
+    {
+        "name": "The Silver Spoon",
+        "image": "silver.jpg",
+        "email": "thesilverspoon@example.com",
+        "phone": "123-456-7894",
+        "url": "https://www.thesilverspoon.com"
+    },
+    {
+        "name": "Pet Store",
+        "image": "petstore.jpg",
+        "email": "petstore@example.com",
+        "phone": "123-456-7895",
+        "url": "https://www.petstore.com"
+    },
+    {
+        "name": "House of Flowers",
+        "image": "flowers.jpg",
+        "email": "houseofflowers@example.com",
+        "phone": "123-456-7896",
+        "url": "https://www.houseofflowers.com"
+    },
+    {
+        "name": "Maze of Letters",
+        "image": "libreria.jpg",
+        "email": "mazeofletters@example.com",
+        "phone": "123-456-7897",
+        "url": "https://www.mazeofletters.com"
+    },
+    {
+        "name": "Astro Play",
+        "image": "jugueteria.jpg",
+        "email": "astroplay@example.com",
+        "phone": "123-456-7898",
+        "url": "https://www.astroplay.com"
+    }
+]

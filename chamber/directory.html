@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <meta name="author" content="Pamela Beltran Trujillo">
+    <meta name="description" content="This is a directory page for the chamber of commerce website.">
+
+    <meta property="og:title" content="Directory">
+    <meta property="og:description" content="This is a directory page for the chamber of commerce website.">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <link rel="icon" href="./directory-fav.ico">
+</head>
+<body>
+    <header>
+        <!--The <header> tag should contain a site logo (using an svg file) 
+            and your name rendered using a <span> tag, and a hamburger icon on small screens.-->
+        <img src="images/logo1.webp" alt="Site Logo" width="512" height="512">
+        <span>... Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Directory</h1>
+        <div class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+        <section id="members"></section>
+    </main>
+    <footer>
+        <div>
+            <p><strong>... Chamber of Commerce</strong></p>
+            <p>123 Main Street</p>
+            <p>City, State ZIP</p>
+            <p>info@...chamber.com</p>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/login/" target="_blank"><img src="images/youtube.svg" alt="YouTube"
+                    width="16" height="16"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter.svg" alt="Twitter" width="16"
+                    height="16"></a>
+            <a href="https://www.linkedin.com/login/" target="_blank"><img src="images/linkedin1.svg" alt="LinkedIn"
+                    width="16" height="16"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Pamela Beltran</p>
+            <p>&copy; <span id="copyrightYear"></span> ... Chamber of Commerce - Mexico</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
