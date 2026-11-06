@@ -2,64 +2,82 @@
     {
         "name": "Daisuki Details",
         "image": "daisuki.png",
+        "address": "123 Main St, Cityville, ST 12345",
         "email": "daisuki@example.com",
         "phone": "123-456-7890",
-        "url": "https://www.daisuki.com"
+        "url": "https://www.daisuki.com",
+        "membership": "Gold"
     },
     {
         "name": "Angeles del Cielo",
         "image": "angeles.jpg",
+        "address": "456 Oak Ave, Townsville, ST 67890",
         "email": "angelesdelcielo@example.com",
         "phone": "123-456-7891",
-        "url": "https://www.angelesdelcielo.com"
+        "url": "https://www.angelesdelcielo.com",
+        "membership": "Silver"
     },
     {
         "name": "Tomillo Dark Kitchen",
         "image": "tomillo.jpg",
+        "address": "789 Pine Rd, Villagetown, ST 11111",
         "email": "tomillo@example.com",
         "phone": "123-456-7892",
-        "url": "https://www.tomillodarkkitchen.com"
+        "url": "https://www.tomillodarkkitchen.com",    
+        "membership": "Gold"
     },
     {
         "name": "Mejorana Kitchen",
         "image": "mejorana.jpg",
+        "address": "321 Elm St, Cityville, ST 22222",
         "email": "mejorana@example.com",
         "phone": "123-456-7893",
-        "url": "https://www.mejorana.com"
+        "url": "https://www.mejorana.com",
+        "membership": "Member"
     },
     {
         "name": "The Silver Spoon",
         "image": "silver.jpg",
+        "address": "555 Maple Dr, Townsville, ST 67890",
         "email": "thesilverspoon@example.com",
         "phone": "123-456-7894",
-        "url": "https://www.thesilverspoon.com"
+        "url": "https://www.thesilverspoon.com",
+        "membership": "Silver"
     },
     {
         "name": "Pet Store",
         "image": "petstore.jpg",
+        "address": "666 Oak Ave, Townsville, ST 67890",
         "email": "petstore@example.com",
         "phone": "123-456-7895",
-        "url": "https://www.petstore.com"
+        "url": "https://www.petstore.com",
+        "membership": "Member"
     },
     {
         "name": "House of Flowers",
         "image": "flowers.jpg",
+        "address": "777 Rose Ln, Villagetown, ST 11111",
         "email": "houseofflowers@example.com",
         "phone": "123-456-7896",
-        "url": "https://www.houseofflowers.com"
+        "url": "https://www.houseofflowers.com",
+        "membership": "Gold"
     },
     {
         "name": "Maze of Letters",
         "image": "libreria.jpg",
+        "address": "888 Library St, Cityville, ST 22222",
         "email": "mazeofletters@example.com",
         "phone": "123-456-7897",
-        "url": "https://www.mazeofletters.com"
+        "url": "https://www.mazeofletters.com",
+        "membership": "Silver"
     },
     {
         "name": "Astro Play",
         "image": "jugueteria.jpg",
+        "address": "999 Toy Blvd, Townsville, ST 67890",
         "email": "astroplay@example.com",
         "phone": "123-456-7898",
-        "url": "https://www.astroplay.com"
+        "url": "https://www.astroplay.com",
+        "membership": "Member"
     }
 ]
