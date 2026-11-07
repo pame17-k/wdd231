@@ -98,11 +98,11 @@ header span {
     border-radius: 8px;
     overflow: hidden;
     padding: 1rem;
-
+    margin: .5rem;
 }
 
 .member-card img {
-     width: 100px;
+    width: 100px;
     height: 100px;
     object-fit: contain;
 }
@@ -113,9 +113,24 @@ header span {
 }
 
 .member-content {
-display: flex;
-gap: 1rem;
-align-items: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/******************************* BUTTONS ********************************/
+.view-buttons button {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.view-buttons button:hover {
+    background-color: #d8e8e6;
 }
 
 /************************ Para el list view ********************************/
