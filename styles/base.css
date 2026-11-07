@@ -75,7 +75,7 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: #cbd5c5;
+    background-color: #e6ece2;
 }
 
 h1 {
@@ -96,7 +96,7 @@ main h1 {
 }
 
 .about, .photo, .courses {
-    border: 1px solid #ccc;
+    border: 1px solid #f9f5f5;
     background-color: #f5f5f5;
     /*padding: 1rem;*/
 }
