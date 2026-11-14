@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page of Chamber Commerce</title>
+    <meta name="author" content="Pamela Beltran Trujillo">
+    <meta name="description" content="This is a home page for the chamber of commerce website.">
+
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="This is a home page for the chamber of commerce website.">
+    <meta property="og:url" content="https://pame17-k.github.io/wdd231/chamber/index.html">
+    <meta property="og:image" content="https://pame17-k.github.io/wdd231/chamber/images/logo1.webp">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/button.js" defer></script>
+    
+    <link rel="icon" href="./directory-fav.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!--The <header> tag should contain a site logo (using an svg file) 
+            and your name rendered using a <span> tag, and a hamburger icon on small screens.-->
+        <img src="images/logo1.webp" alt="Site Logo" width="512" height="512">
+        <span>... Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/oaxaca.webp" alt="Beautiful city of Oaxaca" width="700" height="500">
+            <h1>Welcome to the Chamber</h1>
+            <a href="join.html" class="cta">Join the Chamber</a>
+            <p>We are dedicated to supporting local businesses and fostering a thriving community. Join us to connect, grow, and succeed together. Connect with local businesses and grow your network.</p>
+        
+        </section>
+
+        <section class="welcome">
+            </section>
+
+        <div class="info-sections">
+            <section class="events">
+                <h2>Upcoming Events</h2>
+                <article>
+                    <h3>Business Networking Breakfast</h3>
+                    <p>Meet local entrepreneurs and expand your professional connections.</p>
+                </article>
+                <article>
+                    <h3>Small Business Workshop</h3>
+                    <p>Learn new strategies to grow and promote your business.</p>
+                </article>
+            </section>
+
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <div id="current-weather"></div>
+                <div id="forecast"></div>
+            </section>
+        </div>
+
+            <section class="member-spotlight">
+                <h2>Member Spotlight</h2>
+                <div id="spotlight-container"></div>
+            </section>
+        
+        
+    </main>
+    <footer>
+        <div class="chamber-info">
+            <p><strong>... Chamber of Commerce</strong></p>
+            <p>123 Main Street</p>
+            <p>City, State ZIP</p>
+            <p>info@...chamber.com</p>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/login/" target="_blank"><img src="images/youtube.svg" alt="YouTube Logo"
+                    width="16" height="16"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter.svg" alt="Twitter Logo" width="16"
+                    height="16"></a>
+            <a href="https://www.linkedin.com/login/" target="_blank"><img src="images/linkedin1.svg" alt="LinkedIn Logo"
+                    width="16" height="16"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD231 Class Project</p>
+            <p>Pamela Beltran</p>
+            <p>&copy; <span id="copyrightYear"></span> ... Chamber of Commerce - Mexico</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

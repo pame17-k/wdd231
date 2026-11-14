@@ -1,6 +1,6 @@
 /* Base Styles :
 Primary Color:  7c58a5
-Secondary Color: 
+Secondary Color: 7277ad
 Background Color:  #e6e1ec
 Text Color:  #000000
 Font Family: 
@@ -188,3 +188,95 @@ footer {
 .copyright {
     text-align: left;
 }
+
+/******************************* INDEX ********************************/
+/******************************* HERO ********************************/
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cta {
+    position: absolute;
+    bottom: 9rem;
+    right: 1rem;
+    background-color: #7c58a5;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hero p {
+   /* position: absolute;
+    top: 21rem;
+    left: 1rem;
+
+    max-width: 500px;
+
+    background-color: rgba(229, 220, 240, 0.85);
+
+    padding: 0.75rem 1rem;
+    border-radius: 6px;*/
+
+    color: #000;
+    margin: 0;
+    background-color: #e5dcf0;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    color: #000000;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #e5dcf0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: #000000;
+    margin: 0;
+}
+
+
+/******************************* EVENTS AND WEATHER ********************************/
+    .events,
+    .weather {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 1rem;
+    overflow: hidden;
+    background-color: white;
+    }
+
+    .events h2,
+    .weather h2 {
+    background-color: #7277ad;
+    color: white;
+
+    margin: 0;
+    padding: .8rem;
+
+    text-align: center;
+    }
+
+    .events article {
+    padding: 1rem;
+    }
+
+    .events article:first-of-type {
+    border-bottom: 1px solid #ddd;
+    }
+
+    .weather {
+    min-height: 200px;
+    }
