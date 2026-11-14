@@ -13,10 +13,12 @@
     <meta property="og:image" content="https://pame17-k.github.io/wdd231/chamber/images/logo1.webp">
 
     <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base.css" media="(min-width: 600px)">
     <link rel="stylesheet" href="styles/normalize.css">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/button.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
     
     <link rel="icon" href="./directory-fav.ico">
 
@@ -50,9 +52,6 @@
         
         </section>
 
-        <section class="welcome">
-            </section>
-
         <div class="info-sections">
             <section class="events">
                 <h2>Upcoming Events</h2>
@@ -68,7 +67,8 @@
 
             <section class="weather">
                 <h2>Current Weather</h2>
-                <div id="current-weather"></div>
+                <div id="current-weather">
+                </div>
                 <div id="forecast"></div>
             </section>
         </div>

@@ -249,8 +249,8 @@ footer {
 
 
 /******************************* EVENTS AND WEATHER ********************************/
-    .events,
-    .weather {
+.events,
+.weather {
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 1rem;
@@ -258,8 +258,8 @@ footer {
     background-color: white;
     }
 
-    .events h2,
-    .weather h2 {
+.events h2,
+.weather h2 {
     background-color: #7277ad;
     color: white;
 
@@ -269,14 +269,75 @@ footer {
     text-align: center;
     }
 
-    .events article {
+.events article {
     padding: 1rem;
     }
 
-    .events article:first-of-type {
+.events article:first-of-type {
     border-bottom: 1px solid #ddd;
     }
 
-    .weather {
+.weather {
     min-height: 200px;
     }
+
+#current-weather {
+    padding: 1rem;
+    text-align: center;
+}
+
+#current-weather img {
+    width: 80px;
+    height: auto;
+}
+
+#current-weather p {
+    margin: .25rem 0;
+}
+
+#current-weather strong {
+    font-size: 1.5rem;
+}
+
+/************************************* SPOTLIGHT *************************************/
+.member-spotlight {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.member-spotlight h2 {
+    background-color: #7277ad;
+    color: white;
+    margin: 0;
+    padding: .8rem;
+    text-align: center;
+}
+
+#spotlight-container {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.spotlight-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.spotlight-card img {
+    width: 120px;
+    height: auto;
+    margin: .5rem 0;
+}
+
+.spotlight-card h3 {
+    margin-bottom: .5rem;
+}
+
+.spotlight-card p {
+    margin: .5rem
+}

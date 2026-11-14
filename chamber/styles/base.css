@@ -57,7 +57,45 @@
         text-align: right;
     }
     /* EVENTS AND WEATHER */
-    
+    .events {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    }
+
+    .events h2 {
+        background-color: #7c58a5;
+        color: white;
+        padding: .75rem;
+        margin: 0;
+    }
+
+    .events article {
+        padding: 1rem;
+    }
+
+    /* ===========================
+    WEATHER
+    =========================== */
+
+    .weather {
+        margin: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .weather h2 {
+        background-color: #7c58a5;
+        color: white;
+        padding: .75rem;
+        margin: 0;
+    }
+
+    .weather div {
+        padding: 1rem;
+    }
 
 
     /*footer {
