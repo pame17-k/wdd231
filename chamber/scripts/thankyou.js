@@ -9,4 +9,5 @@ details.innerHTML = `
     <p><strong>Phone:</strong> ${params.get("phone")}</p>
     <p><strong>Organization:</strong> ${params.get("organization")}</p>
     <p><strong>Membership Level:</strong> ${params.get("membership")}</p>
+    <p><strong>Submitted:</strong> ${params.get("timestamp")}</p>
 `;
