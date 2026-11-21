@@ -97,6 +97,32 @@
         padding: 1rem;
     }
 
+    /* SECCIONES DEL INDEX */
+    /* .info-sections {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .events, .weather {
+        margin: 0;
+    }
+
+    #spotlight-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .spotlight-card {
+        height: 100%;
+    }
+
+    .spotlight-card img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+    } */
 
     /*footer {
         display: grid;
