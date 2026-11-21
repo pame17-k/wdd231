@@ -215,23 +215,10 @@ footer {
 }
 
 .hero p {
-   /* position: absolute;
-    top: 21rem;
-    left: 1rem;
-
-    max-width: 500px;
-
-    background-color: rgba(229, 220, 240, 0.85);
-
-    padding: 0.75rem 1rem;
-    border-radius: 6px;*/
-
     color: #000;
-    margin: 0;
     background-color: #e5dcf0;
     padding: 0.75rem 1rem;
     border-radius: 6px;
-    color: #000000;
     margin: 1rem;
     font-size: 1.2rem;
 }
