@@ -456,3 +456,16 @@ main h1 {
     }
 }
 
+/************************ THANKYOU *********************/
+.thankyou-card {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #d8e8e6;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.thankyou-card h2, .thankyou-p{
+    text-align: center;
+}
