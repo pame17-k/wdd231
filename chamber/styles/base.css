@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 400px) {
 
     header,
     main,
@@ -116,5 +116,58 @@
     .copyright {
         text-align: right;
     }*/
-    
+    /******* JOIN ********/
+    .join-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: start;
+        padding: 2rem;
+    }
+    /**** FORMULARIO ****/
+    .form-section {
+        padding: 2rem;
+    }
+
+    .form-section form {
+        gap: 1.25rem;
+    }
+
+    /**** TARJETAS ****/
+    .membership-section {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        /*se quedan visibles mientras se llena el formulario*/
+        position: sticky;
+        top: 1rem;
+    }
+
+    .membership-card {
+        padding: 1.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .membership-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .membership-card h2 {
+        font-size: 1.25rem;
+    }
+
+    /**** MODALES ****/
+    dialog {
+        max-width: 500px;
+        padding: 2rem;
+    }
+
+    dialog h2 {
+        margin-top: 0;
+    }
+
+    .close-btn {
+        padding: .75rem 1.5rem;
+    }
 }
