@@ -1,0 +1,62 @@
+/* Graphite #2A2B2A: Main text
+#072AC8, 223FBB: Header, Footer and primary headings 
+#1E96FC: Secondary headings, links and buttons
+#add7f3: Main background color and content sections
+#FFC600: Call-to-action buttons such as Donate and Adopt
+#FCF300: Hover effects and highlighted elements.
+
+TYPOGRAPHY:
+1. 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif: Body text, paragraphs
+2. Roboto: Headings
+*/
+
+header, footer {
+    background-color: #223FBB;
+    padding: 1rem;    
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: roboto, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.charlie {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.apix-card {
+    color: #2A2B2A;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: #add7f3;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    
+}
+
+.apix-card img {
+    max-width: 50%;
+    height: auto;
+}
+
+h2 {
+    color: #072AC8;
+    font-family: roboto, sans-serif;
+}
+
+footer {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
