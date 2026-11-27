@@ -121,7 +121,7 @@ header span {
 
 /******************************* BUTTONS ********************************/
 .view-buttons button {
-    background-color: white;
+    background-color: #ffffff;
     width: 40px;
     height: 40px;
     font-size: 1.5rem;
@@ -207,7 +207,7 @@ footer {
     bottom: 10rem;
     right: 1rem;
     background-color: #7c58a5;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.75rem 1rem;
     border-radius: 6px;
@@ -242,13 +242,13 @@ footer {
     border-radius: 8px;
     margin: 1rem;
     overflow: hidden;
-    background-color: white;
+    background-color: #ffffff;
     }
 
 .events h2,
 .weather h2 {
     background-color: #7277ad;
-    color: white;
+    color: #ffffff;
 
     margin: 0;
     padding: .8rem;
@@ -296,7 +296,7 @@ footer {
 
 .member-spotlight h2 {
     background-color: #7277ad;
-    color: white;
+    color: #ffffff;
     margin: 0;
     padding: .8rem;
     text-align: center;
@@ -519,8 +519,8 @@ main h1 {
 }
 
 .card p {
-    padding: 1rem;
-
+    padding: .75rem 0;
+    line-height: 1.5;
 }
 
 .card button {
@@ -528,7 +528,8 @@ main h1 {
     color: #ccc;
     border: none;
     padding: .75rem 1rem;
-
     border-radius: 5px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
